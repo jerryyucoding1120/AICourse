@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿```html name=index.html
+<!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
@@ -60,7 +61,7 @@
         <div class="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
             <div class="flex items-center space-x-3">
                 <span class="w-2 h-2 rounded-full bg-gold-400"></span>
-                <span class="font-semibold text-white tracking-wider uppercase text-[11px]">Academic Portfolio & Research Portal</span>
+                <span class="font-semibold text-white tracking-wider uppercase text-[11px]">Academic Portfolio &amp; Research Portal</span>
                 <span class="text-forest-600">•</span>
                 <span class="text-slate-300 font-medium">Department of Educational Technology</span>
             </div>
@@ -114,7 +115,7 @@
         <div class="max-w-5xl mx-auto px-4 sm:px-8">
             <div class="inline-flex items-center gap-2 px-3 py-1 rounded bg-forest-50 border border-forest-200 text-forest-800 text-[11px] font-bold uppercase tracking-wider mb-4">
                 <i data-lucide="scroll" class="w-3.5 h-3.5 text-gold-600"></i>
-                Official Final Project Report & Capstone Archive
+                Official Final Project Report &amp; Capstone Archive
             </div>
 
             <h1 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-forest-950 leading-[1.25] tracking-tight mb-6">
@@ -162,7 +163,7 @@
                 <div>
                     <div class="text-[11px] font-mono uppercase tracking-wider text-gold-600 font-bold">Module 01</div>
                     <h2 class="font-serif text-2xl sm:text-3xl font-bold text-forest-950 mt-1">
-                        AI-Generated Presentation & Curriculum Structuring
+                        AI-Generated Presentation &amp; Curriculum Structuring
                     </h2>
                     <div class="text-xs text-slate-600 mt-1">
                         Primary Investigation: <strong class="text-forest-900">Kimi AI</strong> | Comparative Benchmark: <strong class="text-forest-900">Google Gemini</strong>
@@ -181,7 +182,7 @@
                 <div class="px-6 py-4 bg-forest-900 text-white flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                     <div>
                         <div class="text-[11px] font-mono uppercase text-gold-300 font-semibold">Curriculum Artifact Display</div>
-                        <div class="text-sm font-bold mt-0.5">Unit Framework: Digital Ethics & Algorithmic Literacy in Secondary Education</div>
+                        <div class="text-sm font-bold mt-0.5">Unit Framework: Digital Ethics &amp; Algorithmic Literacy in Secondary Education</div>
                     </div>
                     <div class="flex items-center space-x-2">
                         <button onclick="toggleModal('presModal')" class="inline-flex items-center space-x-1.5 text-xs font-semibold px-3 py-1.5 rounded bg-white text-forest-950 hover:bg-forest-50 border border-gold-400 transition">
@@ -212,7 +213,7 @@
                                     Presentation.pptx (21 Slides) Uploaded
                                 </h3>
                                 <p class="text-xs text-slate-600 max-w-md mx-auto leading-relaxed">
-                                    To display your slides directly on this screen with the click arrows: Open <strong class="text-forest-950">Presentation.pptx</strong> in PowerPoint $\rightarrow$ click <strong class="text-forest-950">File $\rightarrow$ Save As $\rightarrow$ PNG</strong> $\rightarrow$ select <strong class="text-forest-950">"All Slides"</strong> $\rightarrow$ save into <code class="bg-forest-100 px-1.5 py-0.5 rounded text-forest-900 font-mono">assets/slides/</code>.
+                                    To display your slides directly on this screen with the click arrows: Open <strong class="text-forest-950">Presentation.pptx</strong> in PowerPoint, select <strong class="text-forest-950">File, Save As, PNG</strong>, select <strong class="text-forest-950">"All Slides"</strong>, and save them into <code class="bg-forest-100 px-1.5 py-0.5 rounded text-forest-900 font-mono">assets/slides/</code>.
                                 </p>
                             </div>
                             <div class="flex justify-between items-center text-[11px] text-slate-400 font-mono pt-4 border-t border-slate-100">
@@ -248,16 +249,16 @@
                 <div class="p-6 sm:p-8 space-y-8 text-sm leading-relaxed text-slate-700 font-sans">
                     <div>
                         <h3 class="font-serif text-lg font-bold text-forest-950 mb-2">
-                            1. Operational Pros, Cons & Hands-On Testing Evidence
+                            1. Operational Pros, Cons &amp; Hands-On Testing Evidence
                         </h3>
                         <p class="mb-3">
                             To evaluate generative slide platforms for classroom instruction, I conducted direct comparative trials between <strong>Kimi AI</strong> and <strong>Google Gemini</strong> using the identical curriculum brief: <em>"Synthesize a multi-slide pedagogical unit on Digital Ethics and Algorithmic Literacy for secondary students, balancing theoretical frameworks with active Socratic inquiry."</em>
                         </p>
                         <p class="mb-3">
-                            <strong>Kimi AI: High Modifiability vs. Severe Server Bottlenecks:</strong> Kimi AI excelled at generating coherent slide structures with relevant educational visuals and well-proportioned layout hierarchies. Crucially, Kimi exports slides with <em>native, fully editable text and shape elements</em> inside PowerPoint. This allows educators to adapt terminology, update discussion prompts, and personalize lesson pacing without friction. However, its primary operational limitation is server congestion: due to high concurrent user traffic, Kimi repeatedly throttles access, presenting severe queue delays and usage limit warnings that interrupt continuous lesson planning workflows.
+                            <strong>Kimi AI: High Modifiability vs. Severe Server Bottlenecks:</strong> Kimi AI excelled at generating coherent slide structures with relevant educational visuals and well-proportioned layout hierarchies. Crucially, Kimi exports slides with <em>native, fully editable text and shape elements</em> inside PowerPoint. This allows educators to adapt terminology, update discussion prompts, and personalize lesson pacing without friction. However, its primary operational limitation is server congestion. Due to high concurrent user traffic, Kimi repeatedly throttles access, presenting severe queue delays and usage limit warnings that interrupt continuous lesson planning workflows.
                         </p>
                         <p class="mb-3">
-                            <strong>Google Gemini: Visual Polish vs. The "Flattened Image" Obstacle:</strong> Google Gemini generated high-quality images and visually striking presentation aesthetics. However, an acute pedagogical drawback emerged upon inspecting the exported deck: <em>Gemini renders the slides as flattened raster images embedded inside the .pptx container</em>. Because the typography is baked directly into the image layer, instructors cannot highlight, reword, fix typos, or reformat slide text in PowerPoint. Correcting or customizing the content requires an inconvenient secondary workaround—importing the slide images into Canva or graphic design software to reconstruct text layers—introducing cumbersome multi-step friction that compromises the efficiency promise of generative AI.
+                            <strong>Google Gemini: Visual Polish vs. the Flattened Image Obstacle:</strong> Google Gemini generated high-quality images and visually striking presentation aesthetics. However, an acute pedagogical drawback emerged upon inspecting the exported deck: <em>Gemini renders the slides as flattened raster images embedded inside the .pptx container</em>. Because the typography is baked directly into the image layer, instructors cannot highlight, reword, fix typos, or reformat slide text in PowerPoint. Correcting or customizing the content requires an inconvenient secondary workaround, importing the slide images into Canva or graphic design software to reconstruct text layers. This introduces considerable friction that compromises the efficiency promise of generative AI.
                         </p>
                     </div>
 
@@ -277,16 +278,16 @@
                                 </thead>
                                 <tbody class="divide-y divide-slate-200 text-slate-600">
                                     <tr>
-                                        <td class="p-3 font-semibold text-forest-950">Text & Element Modifiability</td>
+                                        <td class="p-3 font-semibold text-forest-950">Text &amp; Element Modifiability</td>
                                         <td class="p-3 bg-forest-50/50 border-x border-forest-200 font-medium text-forest-900">
                                             Fully editable native text boxes, headings, and vectors directly inside PPTX
                                         </td>
                                         <td class="p-3 text-rose-800">
-                                            Generates slides as flattened images; text cannot be edited without third-party tools (e.g. Canva)
+                                            Generates slides as flattened images. Text cannot be edited without third-party tools such as Canva.
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="p-3 font-semibold text-forest-950">Visual & Image Quality</td>
+                                        <td class="p-3 font-semibold text-forest-950">Visual &amp; Image Quality</td>
                                         <td class="p-3 bg-forest-50/50 border-x border-forest-200">
                                             Well-integrated visual metaphors and contextual diagrams
                                         </td>
@@ -295,7 +296,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="p-3 font-semibold text-forest-950">Service Availability & Quota</td>
+                                        <td class="p-3 font-semibold text-forest-950">Service Availability &amp; Quota</td>
                                         <td class="p-3 bg-forest-50/50 border-x border-forest-200 text-amber-800">
                                             Frequent capacity throttling due to peak concurrent user traffic
                                         </td>
@@ -309,7 +310,7 @@
                                             Fastest path to a customizable, classroom-ready PowerPoint
                                         </td>
                                         <td class="p-3 text-slate-500">
-                                            High friction if modifications are needed (requires Canva re-work)
+                                            High friction if modifications are needed. Canva rework is required.
                                         </td>
                                     </tr>
                                 </tbody>
@@ -320,13 +321,13 @@
                     <!-- Potential & Limitations in Education -->
                     <div>
                         <h3 class="font-serif text-lg font-bold text-forest-950 mb-2">
-                            3. Educational Implications & The Workflow Friction Problem
+                            3. Educational Implications &amp; the Workflow Friction Problem
                         </h3>
                         <p class="mb-3">
-                            <strong>Classroom Utility vs. Editability:</strong> In educational contexts, a presentation is rarely a static one-size-fits-all artifact. Instructors must routinely differentiate content—simplifying terminology for emerging bilingual learners, adding extension questions for advanced cohorts, or revising examples to reflect local school realities. Kimi's native editability makes it fundamentally more viable for educational customization, whereas Gemini's flattened image approach creates a bottleneck that forces educators to perform extra graphic reconstruction in Canva.
+                            <strong>Classroom Utility vs. Editability:</strong> In educational contexts, a presentation is rarely a static one-size-fits-all artifact. Instructors must routinely differentiate content, simplify terminology for emerging bilingual learners, add extension questions for advanced cohorts, or revise examples to reflect local school realities. Kimi's native editability makes it fundamentally more viable for educational customization, whereas Gemini's flattened image approach creates a bottleneck that forces educators to perform extra graphic reconstruction in Canva.
                         </p>
                         <p class="mb-3">
-                            <strong>The Infrastructure Dilemma:</strong> However, a tool's pedagogical utility is nullified if educators cannot rely on it during lesson preparation hours. Kimi’s recurrent capacity restrictions illustrate the fragility of relying on consumer-tier generative AI for institutional workflows. For AI presentation tools to become indispensable classroom aids, systems must combine Gemini's server resilience with Kimi's native component editability.
+                            <strong>The Infrastructure Dilemma:</strong> However, a tool's pedagogical utility is nullified if educators cannot rely on it during lesson preparation hours. Kimi's recurrent capacity restrictions illustrate the fragility of relying on consumer-tier generative AI for institutional workflows. For AI presentation tools to become indispensable classroom aids, systems must combine Gemini's server resilience with Kimi's native component editability.
                         </p>
                     </div>
                 </div>
@@ -341,7 +342,7 @@
                 <div>
                     <div class="text-[11px] font-mono uppercase tracking-wider text-gold-600 font-bold">Module 02</div>
                     <h2 class="font-serif text-2xl sm:text-3xl font-bold text-forest-950 mt-1">
-                        Synthetic Video Production & Creative Engagement
+                        Synthetic Video Production &amp; Creative Engagement
                     </h2>
                     <div class="text-xs text-slate-600 mt-1">
                         Primary Focus: <strong class="text-forest-900">Google Flow (Viral AI Fruit Series)</strong> | Comparative Benchmark: <strong class="text-forest-900">HeyGen</strong>
@@ -460,13 +461,13 @@
                 <div class="p-6 sm:p-8 space-y-8 text-sm leading-relaxed text-slate-700 font-sans">
                     <div>
                         <h3 class="font-serif text-lg font-bold text-forest-950 mb-3">
-                            1. Operational Pros, Cons & The Credit Economy Barrier
+                            1. Operational Pros, Cons &amp; the Credit Economy Barrier
                         </h3>
                         <p class="mb-3">
                             For the synthetic video investigation, I focused on creating the viral AI Fruit video series using Google Flow. My goal was to see whether creative, character-driven animation could serve as an engaging instructional hook for students.
                         </p>
                         <p class="mb-4">
-                            To understand Google Flow’s strengths and limitations, I also experimented with HeyGen. While HeyGen can produce high-quality videos, its credit system made it difficult to test ideas freely, especially for students who need to make multiple revisions.
+                            To understand Google Flow's strengths and limitations, I also experimented with HeyGen. While HeyGen can produce high-quality videos, its credit system made it difficult to test ideas freely, especially for students who need to make multiple revisions.
                         </p>
 
                         <div class="space-y-3 pl-3 border-l-2 border-forest-800 mb-5">
@@ -475,7 +476,7 @@
                                 Google Flow was the most practical tool for making longer, stylized videos. It allowed me to experiment with different prompts and create the AI Fruit series without constantly worrying about losing credits after every generation.
                             </p>
                             <p class="text-slate-700">
-                                The main limitation was that the generated videos were not always perfect. Some visual details, character movements, and timing issues were hard to correct after the video was created. For a formal instructional video, these flaws could reduce the overall quality because they would require additional editing or repeated generations.
+                                The main limitation was that the generated videos were not always perfect. Some visual details, character movements, and timing issues were difficult to correct after the video was created. For a formal instructional video, these flaws could reduce the overall quality because they would require additional editing or repeated generations.
                             </p>
                             <p class="text-slate-700">
                                 However, these imperfections were not a major issue for brainrot-style videos. In fact, the unusual movements and exaggerated visuals added to the comedy and made the videos more entertaining. For this type of viral, humorous content, Google Flow was the best option because the flaws fit the style rather than taking away from it.
@@ -485,7 +486,7 @@
                         <div class="space-y-3 pl-3 border-l-2 border-gold-600 mb-5">
                             <h4 class="font-serif font-bold text-forest-950 text-sm">HeyGen</h4>
                             <p class="text-slate-700">
-                                I previously used HeyGen Premium, and its video quality was noticeably strong. In the comparative showcase (Demo 2), HeyGen created realistic-looking avatars with natural facial expressions, posture, and fairly good lip synchronization. This makes it a strong choice for formal instructional videos, presentations, or professional announcements.
+                                I previously used HeyGen Premium, and its video quality was noticeably strong. In the comparative showcase, Demo 2, HeyGen created realistic-looking avatars with natural facial expressions, posture, and fairly good lip synchronization. This makes it a strong choice for formal instructional videos, presentations, or professional announcements.
                             </p>
                             <p class="text-slate-700">
                                 I think HeyGen Premium would work especially well for creating advertisements for TikTok or Instagram. The realistic avatar and decent lip-sync quality would help short promotional videos look more polished and believable.
@@ -522,39 +523,39 @@
                                 </thead>
                                 <tbody class="divide-y divide-slate-200 text-slate-600">
                                     <tr>
-                                        <td class="p-3 font-semibold text-forest-950">Free Tier & Credit Cost</td>
+                                        <td class="p-3 font-semibold text-forest-950">Free Tier &amp; Credit Cost</td>
                                         <td class="p-3 bg-forest-50/50 border-x border-forest-200 font-medium text-forest-900">
                                             Accessible generation flow without rapid credit exhaustion
                                         </td>
                                         <td class="p-3 text-amber-800">
-                                            Strict credit limits on free tier; requires paid Premium for real use
+                                            Strict credit limits on free tier. Paid Premium is required for practical use.
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="p-3 font-semibold text-forest-950">Visual & Animation Strengths</td>
+                                        <td class="p-3 font-semibold text-forest-950">Visual &amp; Animation Strengths</td>
                                         <td class="p-3 bg-forest-50/50 border-x border-forest-200">
-                                            Strong stylized character generation (e.g. viral AI Fruit series)
+                                            Strong stylized character generation, such as the viral AI Fruit series
                                         </td>
                                         <td class="p-3 font-medium text-forest-900">
-                                            Industry-leading photorealistic talking avatars and natural lip-sync
+                                            Photorealistic talking avatars and natural lip synchronization
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="p-3 font-semibold text-forest-950">Trial & Error Tolerance</td>
+                                        <td class="p-3 font-semibold text-forest-950">Trial &amp; Error Tolerance</td>
                                         <td class="p-3 bg-forest-50/50 border-x border-forest-200 font-bold text-forest-950">
-                                            High: Enables multiple prompt iterations without financial penalty
+                                            High: It enables multiple prompt iterations without a financial penalty.
                                         </td>
                                         <td class="p-3 text-slate-500">
-                                            Low on free tier; high on Premium subscription
+                                            Low on free tier. High on a Premium subscription.
                                         </td>
                                     </tr>
                                     <tr>
                                         <td class="p-3 font-semibold text-forest-950">Classroom Educational Role</td>
                                         <td class="p-3 bg-forest-50/50 border-x border-forest-200">
-                                            Creative hooks, animated storytelling, high student engagement
+                                            Creative hooks, animated storytelling, and high student engagement
                                         </td>
                                         <td class="p-3">
-                                            Formal instructional lectures and faculty announcements (if funded)
+                                            Formal instructional lectures and faculty announcements, if funded
                                         </td>
                                     </tr>
                                 </tbody>
@@ -565,13 +566,13 @@
                     <!-- Potential & Limitations in Education -->
                     <div>
                         <h3 class="font-serif text-lg font-bold text-forest-950 mb-2">
-                            3. Pedagogical Application & The Digital Equity Dilemma
+                            3. Pedagogical Application &amp; the Digital Equity Dilemma
                         </h3>
                         <p class="mb-3">
-                            <strong>Viral Formats as Instructional Anchors:</strong> Leveraging viral internet formats—such as animated anthropomorphic AI Fruit characters—demonstrates the power of meeting digital-native students where their attention already lives. Rather than presenting abstract concepts through static text, animated character narratives generate immediate emotional curiosity and cognitive buy-in, particularly for K–12 and secondary learners.
+                            <strong>Viral Formats as Instructional Anchors:</strong> Leveraging viral internet formats, such as animated anthropomorphic AI Fruit characters, demonstrates the power of meeting digital-native students where their attention already lives. Rather than presenting abstract concepts through static text, animated character narratives generate immediate emotional curiosity and cognitive engagement, particularly for K–12 and secondary learners.
                         </p>
                         <p class="mb-3">
-                            <strong>The Digital Equity Cliff:</strong> However, the credit-gated business models of commercial AI video tools (such as HeyGen) pose a serious threat to educational equity. When learning through AI requires continuous credit subscriptions, well-funded institutions and affluent students can afford to experiment and master these tools, while public schools and under-resourced students are locked out. Educational AI must prioritize accessible, open creation tiers to ensure that media literacy remains universally achievable.
+                            <strong>The Digital Equity Cliff:</strong> However, the credit-gated business models of commercial AI video tools, such as HeyGen, pose a serious threat to educational equity. When learning through AI requires continuous credit subscriptions, well-funded institutions and affluent students can afford to experiment and master these tools, while public schools and under-resourced students are locked out. Educational AI must prioritize accessible, open creation tiers to ensure that media literacy remains universally achievable.
                         </p>
                     </div>
                 </div>
@@ -586,10 +587,10 @@
                 <div>
                     <div class="text-[11px] font-mono uppercase tracking-wider text-gold-600 font-bold">Module 03</div>
                     <h2 class="font-serif text-2xl sm:text-3xl font-bold text-forest-950 mt-1">
-                        Conversational AI & Verified Academic Retrieval
+                        Conversational AI, Research &amp; Source Verification
                     </h2>
                     <div class="text-xs text-slate-600 mt-1">
-                        Primary Tool: <strong class="text-forest-900">Perplexity AI</strong> | Comparative Benchmarks: <strong class="text-forest-900">ChatGPT (GPT-4o)</strong>, <strong class="text-forest-900">Replika</strong>
+                        Primary Tool: <strong class="text-forest-900">Perplexity AI</strong> | Comparisons: <strong class="text-forest-900">Google Gemini</strong> and <strong class="text-forest-900">Replika</strong>
                     </div>
                 </div>
                 <div>
@@ -600,35 +601,48 @@
             </div>
 
             <div class="rounded-lg border border-slate-200 bg-white overflow-hidden shadow-sm">
-                <!-- Chat Transcript Display -->
-                <div class="p-6 bg-[#f8faf7] border-b border-slate-200 font-sans">
-                    <div class="max-w-2xl mx-auto space-y-4 text-xs">
-                        <div class="flex items-center justify-between text-slate-500 font-mono text-[11px] pb-2 border-b border-slate-200">
-                            <span>SESSION LOG: PERPLEXITY ACADEMIC INDEXING</span>
-                            <span class="text-gold-700 font-bold">VERIFIED SOURCE RETRIEVAL</span>
-                        </div>
+                <!-- Chat Artifact Showcase -->
+                <div class="p-6 sm:p-8 bg-[#f8faf7] border-b border-slate-200 font-sans">
+                    <div class="text-[11px] font-mono uppercase text-forest-800 font-bold mb-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                        <span>Perplexity Session Evidence: Figure 1 &amp; Figure 2</span>
+                        <span class="text-gold-700">Screenshot Archive</span>
+                    </div>
 
-                        <!-- Inquiry Bubble -->
-                        <div class="bg-white border border-slate-200 p-4 rounded text-slate-800 shadow-xs">
-                            <div class="font-mono text-gold-700 text-[10px] mb-1 uppercase tracking-wider font-bold">Research Query</div>
-                            <p class="leading-relaxed">
-                                "Examine how Vygotsky's Zone of Proximal Development applies to digital tutoring environments, citing peer-reviewed literature published after 2022."
-                            </p>
-                        </div>
-
-                        <!-- System Response Bubble -->
-                        <div class="bg-white border border-slate-200 border-l-4 border-l-forest-800 p-4 rounded text-slate-800 space-y-2.5 shadow-xs">
-                            <div class="font-mono text-slate-400 text-[10px] uppercase tracking-wider flex items-center justify-between">
-                                <span>Perplexity Response with Primary Citations</span>
-                                <span class="text-forest-800 font-bold">2 Indexed Sources</span>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <!-- Figure 1: Perplexity Prompt and Answer -->
+                        <div class="rounded border border-slate-200 bg-white p-4 space-y-3 shadow-xs">
+                            <div class="rounded relative overflow-hidden border border-slate-200 bg-slate-950 flex items-center justify-center min-h-[220px]">
+                                <img src="assets/module3-perplexity-answer.png"
+                                     alt="Perplexity AI answer about the problems of deepfakes and AI images"
+                                     class="w-full h-full max-h-[620px] object-contain">
                             </div>
-                            <p class="leading-relaxed text-slate-700">
-                                When mapped onto generative tutoring systems, the Zone of Proximal Development (ZPD) requires adaptive calibration:
-                            </p>
-                            <ul class="list-disc pl-4 space-y-1 text-slate-600">
-                                <li><strong>Dynamic Feedback Latency:</strong> Systems calibrate cognitive hint delays based on real-time student hesitation indices (<em>Computers & Education, 2023</em>).</li>
-                                <li><strong>Cognitive Under-Exercise:</strong> Unchecked automated answers induce student passivity, narrowing independent problem-solving capacity (<em>Journal of Educational Psychology, 2022</em>).</li>
-                            </ul>
+                            <div class="space-y-1.5">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-[11px] font-mono bg-slate-100 text-slate-700 border border-slate-200 px-2 py-0.5 rounded font-bold">Figure 1</span>
+                                    <span class="font-serif font-bold text-forest-950 text-sm">Perplexity Answer &amp; Source References</span>
+                                </div>
+                                <p class="text-xs text-slate-600 leading-relaxed">
+                                    This screenshot shows Perplexity giving a concise response to the deepfake and AI-image prompt. It explains that synthetic media can weaken democracy by flooding voters with falsehoods and eroding trust in evidence. The answer includes source references and follows the prompt by suggesting an image and a brief post.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Figure 2: Uploaded Perplexity Evidence / Gemini Response -->
+                        <div class="rounded border border-forest-200 bg-white p-4 space-y-3 shadow-xs">
+                            <div class="rounded relative overflow-hidden border border-slate-200 bg-white flex items-center justify-center min-h-[220px]">
+                                <img src="assets/module3-gemini-screen.png"
+                                     alt="Gemini screen showing a request and generated academic PDF table"
+                                     class="w-full h-full max-h-[620px] object-contain">
+                            </div>
+                            <div class="space-y-1.5">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-[11px] font-mono bg-forest-100 text-forest-900 border border-forest-200 px-2 py-0.5 rounded font-bold">Figure 2</span>
+                                    <span class="font-serif font-bold text-forest-950 text-sm">Gemini Evidence &amp; Response Layout</span>
+                                </div>
+                                <p class="text-xs text-slate-600 leading-relaxed">
+                                    This screenshot records my Gemini task involving uploaded academic documents and a table organized by theme, page number, and possible use. It demonstrates Gemini's usefulness for organizing personal academic materials, while also showing why the response still needs to be checked for factual accuracy and translation quality.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -637,52 +651,55 @@
                 <div class="p-6 sm:p-8 space-y-8 text-sm leading-relaxed text-slate-700 font-sans">
                     <div>
                         <h3 class="font-serif text-lg font-bold text-forest-950 mb-2">
-                            1. Operational Pros, Cons & Mitigating Hallucination
+                            1. Hands-On Comparison: Precision, Cost &amp; Reliability
                         </h3>
                         <p class="mb-3">
-                            The central dilemma in conversational AI for higher education is the phenomenon of authoritative hallucination—where models synthesize non-existent literature with convincing grammatical fluency. In comparative testing, standard conversational engines invented plausible-sounding historical education policies when queried about 19th-century educational reforms.
+                            I tested Perplexity with a prompt asking it to research how deepfakes and AI-generated images might affect democracy, find a relevant image, and write a brief explanation. Its response was precise and easy to follow. It explained how convincing falsehoods could undermine trust, summarized a related image, and drafted a short post with source references. This made the result useful as a starting point for research and communication.
                         </p>
                         <p class="mb-3">
-                            <strong>Perplexity's Decisive Affordance:</strong> Perplexity AI addresses this risk by indexing live scholarly databases and appending verifiable hyperlinks to every factual claim. This allows student researchers to inspect the underlying source document before integrating assertions into their scholarship.
+                            <strong>Perplexity: Clear answers with a usage trade-off.</strong> The answer was concise and included references that gave me a way to check where its claims came from. However, using Perplexity can consume tokens or usage allowance. From my experience, that can make it less practical for frequent use without Pro access. Even when an answer appears well-supported, I still need to open and verify the cited sources before relying on it.
                         </p>
                         <p class="mb-3">
-                            <strong>Affective Limitations:</strong> However, Perplexity operates strictly as an informational indexer. When tested with inquiries reflecting student anxiety or emotional distress, it yielded dry taxonomic definitions rather than pedagogical encouragement. It functions as a research tool, but cannot provide social-emotional mentorship.
+                            <strong>Google Gemini: Useful for everyday tasks, but verify the output.</strong> Gemini is a convenient general-purpose tool for daily use. In my testing, though, it sometimes produced hallucinated information. I also encountered a language mismatch. When I typed in Chinese, it sometimes responded in Japanese. This means users should check both factual accuracy and whether the response is in the intended language.
+                        </p>
+                        <p class="mb-3">
+                            <strong>Replika: Conversational and emotionally supportive, not a research source.</strong> Replika felt more conversational and oriented toward emotional support. That can suit casual conversation, but it does not provide the evidence or references needed to verify factual or academic claims. I would not use it as a substitute for a research or fact-checking tool.
                         </p>
                     </div>
 
                     <!-- Comparison Table -->
                     <div>
                         <h3 class="font-serif text-lg font-bold text-forest-950 mb-3">
-                            2. Comparative Chatbot Typology
+                            2. Comparative Chatbot Analysis
                         </h3>
                         <div class="overflow-x-auto">
                             <table class="w-full text-left text-xs border border-slate-200 rounded">
                                 <thead class="bg-forest-50 text-forest-950 font-bold uppercase tracking-wider text-[11px] border-b border-slate-200">
                                     <tr>
                                         <th class="p-3">System</th>
-                                        <th class="p-3">Factual Attribution</th>
-                                        <th class="p-3">Conversational Persona</th>
-                                        <th class="p-3">Educational Role</th>
+                                        <th class="p-3 bg-forest-100/60 text-forest-900 border-x border-forest-200">Strength</th>
+                                        <th class="p-3">Limitation</th>
+                                        <th class="p-3">Best-Fit Use</th>
                                     </tr>
                                 </thead>
                                 <tbody class="divide-y divide-slate-200 text-slate-600">
                                     <tr>
                                         <td class="p-3 font-semibold text-forest-950">Perplexity AI</td>
-                                        <td class="p-3 font-medium text-forest-900">Live web indexing with explicit URL citations</td>
-                                        <td class="p-3">Concise, objective, encyclopedic</td>
-                                        <td class="p-3">Fact-checking, academic synthesis, literature discovery</td>
+                                        <td class="p-3 bg-forest-50/50 border-x border-forest-200 font-medium text-forest-900">Precise, concise answers with source references</td>
+                                        <td class="p-3">Token or usage costs can make frequent use less practical without Pro access. Sources still need checking.</td>
+                                        <td class="p-3">Research starting points, source discovery, and factual summaries</td>
                                     </tr>
                                     <tr>
-                                        <td class="p-3 font-semibold text-forest-950">ChatGPT (GPT-4o)</td>
-                                        <td class="p-3">Generates fluent responses; variable factual grounding</td>
-                                        <td class="p-3">Highly empathetic, adaptable, dialectic</td>
-                                        <td class="p-3">Brainstorming, draft structuring, exploratory dialogue</td>
+                                        <td class="p-3 font-semibold text-forest-950">Google Gemini</td>
+                                        <td class="p-3 bg-forest-50/50 border-x border-forest-200">Versatile and convenient for everyday tasks</td>
+                                        <td class="p-3 text-amber-800">Can hallucinate. In my test, a Chinese prompt sometimes received a Japanese response.</td>
+                                        <td class="p-3">General assistance, brainstorming, and everyday questions, with verification</td>
                                     </tr>
                                     <tr>
                                         <td class="p-3 font-semibold text-forest-950">Replika</td>
-                                        <td class="p-3">No factual verification architecture</td>
-                                        <td class="p-3">Emotionally expressive, relational companion</td>
-                                        <td class="p-3">Casual conversational language practice only</td>
+                                        <td class="p-3 bg-forest-50/50 border-x border-forest-200">More conversational and oriented toward emotional support</td>
+                                        <td class="p-3">Does not provide the evidence or references needed to verify factual claims</td>
+                                        <td class="p-3">Casual conversation and supportive interaction, not academic research</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -692,13 +709,16 @@
                     <!-- Potential & Limitations in Education -->
                     <div>
                         <h3 class="font-serif text-lg font-bold text-forest-950 mb-2">
-                            3. Cultural Context & Classroom Inquiry Dynamics
+                            3. Educational Implications &amp; Responsible Verification
                         </h3>
                         <p class="mb-3">
-                            <strong>Overcoming Questioning Hesitation:</strong> In traditional educational environments—particularly evident in Korean classroom settings—students frequently refrain from asking clarifying questions during lectures to avoid public embarrassment or peer judgment. A cited conversational assistant provides a private, non-judgmental laboratory where students can interrogate complex concepts repeatedly until true comprehension is attained.
+                            <strong>Use citations as a path to evidence, not proof by themselves:</strong> Perplexity's references made its answer easier to investigate, but a citation badge does not guarantee that a source supports every statement. Students should open the original article, check its credibility and date, and confirm that the cited evidence matches the claim they plan to use.
                         </p>
                         <p class="mb-3">
-                            <strong>Epistemic Dependency:</strong> The countervailing risk is the attrition of deep analytical endurance. If students consistently outsource document synthesis to AI summary engines, their capacity to read dense academic treatises independently deteriorates. Institutions must position AI search as an indexing scaffold rather than an intellectual substitute.
+                            <strong>Match the tool to the task:</strong> Perplexity was the best fit of these three for a sourced research response, although its usage cost may limit repeated experimentation. Gemini was convenient for general everyday assistance, but factual and language accuracy needed checking. Replika offered a more conversational, emotionally supportive experience, but was not suitable when evidence or references were required.
+                        </p>
+                        <p class="mb-3">
+                            <strong>Maintain student judgment:</strong> AI-generated summaries and social-media posts can help students begin an inquiry, but students should verify the underlying evidence, review generated images in context, and take responsibility for what they share. This is especially important when the topic involves elections, public trust, or potentially misleading synthetic media.
                         </p>
                     </div>
                 </div>
@@ -746,7 +766,7 @@
                                     <span class="font-serif font-bold text-forest-950 text-sm">Just for Fun</span>
                                 </div>
                                 <p class="text-xs text-slate-600 leading-relaxed">
-                                    This image was generated purely for fun. I wanted to see how well the AI could handle an imaginative, action-packed scene — three armored T-Rex dinosaurs mounted on a battle tank firing neon laser beams through a city. It is a good example of how AI image generation can produce vivid, creative visuals from even an absurd prompt.
+                                    This image was generated purely for fun. I wanted to see how well the AI could handle an imaginative, action-packed scene: three armored T-Rex dinosaurs mounted on a battle tank firing neon laser beams through a city. It is a good example of how AI image generation can produce vivid, creative visuals from even an absurd prompt.
                                 </p>
                             </div>
                         </div>
@@ -776,13 +796,13 @@
                             1. Operational Pros, Cons &amp; Prompt Engineering Analysis
                         </h3>
                         <p class="mb-3">
-                            For this module, I explored AI image generation through two personal experiments. The first was driven by curiosity and creative play; the second was based on a personal interest in digital culture. Instead of testing a formal educational prompt, I used these generations to see how AI image tools respond to imaginative fiction and stylized fan art.
+                            For this module, I explored AI image generation through two personal experiments. The first was driven by curiosity and creative play. The second was based on a personal interest in digital culture. Instead of testing a formal educational prompt, I used these generations to see how AI image tools respond to imaginative fiction and stylized fan art.
                         </p>
                         <p class="mb-3">
-                            <strong>Creative and imaginative prompts (Figure 1):</strong> AI image tools can turn detailed, unlikely ideas into a coherent visual scene. For the T-Rex laser tank image, I combined animals, military equipment, neon effects, and urban destruction in one prompt. The tool produced a recognizable result that matched most of the elements I requested. This showed me that AI can be useful for creating scene illustrations for creative writing, storyboards, or classroom discussion prompts.
+                            <strong>Creative and imaginative prompts, Figure 1:</strong> AI image tools can turn detailed, unlikely ideas into a coherent visual scene. For the T-Rex laser tank image, I combined animals, military equipment, neon effects, and urban destruction in one prompt. The tool produced a recognizable result that matched most of the elements I requested. This showed me that AI can be useful for creating scene illustrations for creative writing, storyboards, or classroom discussion prompts.
                         </p>
                         <p class="mb-3">
-                            <strong>Style-driven and cultural prompts (Figure 2):</strong> For the NewJeans wallpaper, I tested whether AI could apply a specific visual style to a contemporary subject. I asked for an East Asian ink-wash painting style with a cinematic poster composition. The result reflected the style and composition I requested, although it needed adjustment to feel closer to what I imagined. This experiment showed that image generation can be used for personal projects, fan art, wallpapers, and visual ideas that students may create outside formal assignments.
+                            <strong>Style-driven and cultural prompts, Figure 2:</strong> For the NewJeans wallpaper, I tested whether AI could apply a specific visual style to a contemporary subject. I asked for an East Asian ink-wash painting style with a cinematic poster composition. The result reflected the style and composition I requested, although it needed adjustment to feel closer to what I imagined. This experiment showed that image generation can be used for personal projects, fan art, wallpapers, and visual ideas that students may create outside formal assignments.
                         </p>
                         <p class="mb-3">
                             <strong>Key limitation:</strong> Both images required several prompt revisions before the style, composition, and details matched what I wanted. AI image generation is not a one-step process. Students need time, feedback, and enough generation attempts to refine their results. This also connects to the credit limits discussed in the video module, because limited credits can make repeated experimentation difficult.
@@ -807,12 +827,12 @@
                                     <tr>
                                         <td class="p-3 font-semibold text-forest-950">Prompt Motivation</td>
                                         <td class="p-3 bg-forest-50/50 border-x border-forest-200">Pure creative exploration and fun</td>
-                                        <td class="p-3">Personal interest; favorite K-pop group; Instagram Threads trend</td>
+                                        <td class="p-3">Personal interest, favorite K-pop group, and Instagram Threads trend</td>
                                     </tr>
                                     <tr>
                                         <td class="p-3 font-semibold text-forest-950">Visual Style</td>
-                                        <td class="p-3 bg-forest-50/50 border-x border-forest-200">Vibrant 3D action-game render, neon laser effects, explosive cityscape</td>
-                                        <td class="p-3">Cinematic black-and-white ink wash; editorial poster aesthetic</td>
+                                        <td class="p-3 bg-forest-50/50 border-x border-forest-200">Vibrant 3D action-game render, neon laser effects, and explosive cityscape</td>
+                                        <td class="p-3">Cinematic black-and-white ink wash and editorial poster aesthetic</td>
                                     </tr>
                                     <tr>
                                         <td class="p-3 font-semibold text-forest-950">AI Strength Demonstrated</td>
@@ -821,7 +841,7 @@
                                     </tr>
                                     <tr>
                                         <td class="p-3 font-semibold text-forest-950">Classroom Application</td>
-                                        <td class="p-3 bg-forest-50/50 border-x border-forest-200">Creative writing prompts, storytelling stimuli, student engagement hooks</td>
+                                        <td class="p-3 bg-forest-50/50 border-x border-forest-200">Creative writing prompts, storytelling stimuli, and student engagement hooks</td>
                                         <td class="p-3">Demonstrates student-driven, culturally relevant use of AI tools</td>
                                     </tr>
                                 </tbody>
@@ -835,15 +855,14 @@
                             3. Pedagogical Reflection &amp; Student Motivation
                         </h3>
                         <p class="mb-3">
-                            <strong>Intrinsic Motivation as a Learning Driver:</strong> Both images in this module were generated out of personal interest rather than academic obligation. This matters pedagogically. When students use AI tools to create something they genuinely care about — a fan art wallpaper of their favorite music group, or a ridiculous battle scene they found funny — they are more likely to invest time refining their prompts, critically evaluating the outputs, and developing their AI literacy organically.
+                            <strong>Intrinsic Motivation as a Learning Driver:</strong> Both images in this module were generated out of personal interest rather than academic obligation. This matters pedagogically. When students use AI tools to create something they genuinely care about, such as fan art of a favorite music group or a humorous battle scene, they are more likely to invest time refining their prompts, critically evaluating the outputs, and developing their AI literacy organically.
                         </p>
                         <p class="mb-3">
-                            <strong>Trend-Driven Participation:</strong> The NewJeans wallpaper was inspired by a trend circulating on Instagram Threads. This highlights how social media trends can serve as informal onboarding tools that introduce students to AI technologies in low-stakes, personally meaningful ways — before they encounter these tools in a formal classroom setting. Educators can leverage this existing cultural familiarity as a bridge into more structured AI literacy discussions.
+                            <strong>Trend-Driven Participation:</strong> The NewJeans wallpaper was inspired by a trend circulating on Instagram Threads. This highlights how social media trends can serve as informal onboarding tools that introduce students to AI technologies in low-stakes, personally meaningful ways before they encounter these tools in a formal classroom setting. Educators can leverage this existing cultural familiarity as a bridge into more structured AI literacy discussions.
                         </p>
                     </div>
                 </div>
             </div>
-        </section>
         </section>
 
         <!-- ========================================================================= -->
@@ -877,13 +896,13 @@
                         When I started this project, I expected AI tools to make educational content quickly and easily. After using them for presentations, videos, research, and images, I learned that they can be useful, but they do not always produce the result I want on the first try. I had to test different prompts, check the output, and revise it myself.
                     </p>
                     <p>
-                        The presentation module showed me that AI can organize information quickly. I used Kimi to create slides and found that it was useful for generating a first version of a lesson. However, I could not always rely on the first result. I needed to check the wording, structure, and whether the slides matched the topic. Gemini produced a different experience: the slides looked polished, but editing them was difficult because parts of the output were exported as images. This made me realize that a tool may look good at first, but it is not always practical if I cannot revise it easily.
+                        The presentation module showed me that AI can organize information quickly. I used Kimi to create slides and found that it was useful for generating a first version of a lesson. However, I could not always rely on the first result. I needed to check the wording, structure, and whether the slides matched the topic. Gemini produced a different experience. The slides looked polished, but editing them was difficult because parts of the output were exported as images. This made me realize that a tool may look good at first, but it is not always practical if I cannot revise it easily.
                     </p>
                     <p>
                         The video module was the most challenging for me. I used Google Flow to create the "AI Fruit" video, and I learned that video generation requires more than one prompt. I had to adjust the scenes, timing, and visual details to get closer to the result I wanted. The tool could create interesting visuals, but it did not always keep characters, motion, or scene transitions consistent. I also noticed that generation credits limited how many times I could experiment. This made revision harder because I could not freely regenerate a scene every time something looked wrong.
                     </p>
                     <p>
-                        For research, I compared Perplexity and ChatGPT. Perplexity was useful because it provided sources with its answers, so I could check where the information came from. ChatGPT was useful for explaining ideas and helping me think through a topic, but I learned that I could not accept every answer without checking it. AI can give a fast response, but it can also make mistakes or provide information that sounds believable but is not accurate. This taught me that AI should be used as a starting point for research, not as the final source.
+                        For research, I compared Perplexity, Gemini, and Replika. Perplexity gave me a precise answer with source references when I asked about deepfakes and democracy, which helped me identify material to verify. However, its token or usage costs could make frequent use less practical without Pro access. Gemini was useful for everyday tasks, but I learned to check for hallucinations and language mismatches. Replika felt more conversational and supportive, but it did not provide the evidence or references I needed for research. This taught me to choose a tool based on the task and to verify the information before using it.
                     </p>
                     <p>
                         The image-generation module showed me that AI can respond to creative and personal prompts. I created a T-Rex laser tank image and a NewJeans wallpaper in an East Asian ink-wash style. The tools were able to combine unusual ideas and apply a visual style, but neither image was perfect after one prompt. I revised the prompts several times to improve the composition, details, and style. This made me understand that image generation is a process of testing and adjusting, not simply typing one request and receiving a finished result.
@@ -920,7 +939,7 @@
                     <p>Deconstructs how recommender algorithms structure information diets in teenage cohorts.</p>
                 </div>
                 <div class="p-3.5 rounded border border-forest-100 bg-forest-50/50">
-                    <span class="font-bold text-forest-950 block mb-0.5">Section 2: Cognitive Friction & Verification Latency</span>
+                    <span class="font-bold text-forest-950 block mb-0.5">Section 2: Cognitive Friction &amp; Verification Latency</span>
                     <p>Techniques for training students to evaluate sources before adopting AI-synthesized conclusions.</p>
                 </div>
                 <div class="p-3.5 rounded border border-forest-100 bg-forest-50/50">
@@ -1084,8 +1103,8 @@
                 if (videoFlowElem) videoFlowElem.pause();
 
                 if (videoBadge) videoBadge.textContent = 'DEMO 02 / 02 • HEYGEN ARTIFACT';
-                if (videoHeaderTitle) videoHeaderTitle.textContent = 'HeyGen: AI Avatar & Voice Lip-Sync Demo';
-                if (videoMainTitle) videoMainTitle.textContent = 'HeyGen: AI Avatar & Voice Lip-Sync Demo';
+                if (videoHeaderTitle) videoHeaderTitle.textContent = 'HeyGen: AI Avatar &amp; Voice Lip-Sync Demo';
+                if (videoMainTitle) videoMainTitle.textContent = 'HeyGen: AI Avatar &amp; Voice Lip-Sync Demo';
                 if (videoSubTitle) videoSubTitle.textContent = 'High-fidelity presenter avatar rendering with speech synchronization';
                 if (videoTypeTag) videoTypeTag.textContent = 'Demo 2';
                 if (videoToolPill) {
@@ -1120,3 +1139,4 @@
     </script>
 </body>
 </html>
+```
